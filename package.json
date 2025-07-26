@@ -9,7 +9,7 @@
   },
   "author": "Victor Escamilla",
   "license": "ISC",
-  "build": "parcel build index.html",
+  "build": "parcel build index.html --dist-dir ./dist --no-optimize",
   "description": "",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.15.4",
