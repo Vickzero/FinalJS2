@@ -1,0 +1,17 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "source": "index.html",
+  "type": "module",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "Victor Escamilla",
+  "license": "ISC",
+  "build": "parcel build index.html",
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.4",
+    "parcel": "^2.15.4"
+  }
+}
