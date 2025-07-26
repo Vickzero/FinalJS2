@@ -4,7 +4,8 @@
   "source": "index.html",
   "type": "module",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist --no-optimize"
   },
   "author": "Victor Escamilla",
   "license": "ISC",
